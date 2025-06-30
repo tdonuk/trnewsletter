@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Hızlı Bülten</title>
+		<style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 20px;
+            }
+
+            .newsletter-container {
+                background-color: #ffffff;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            }
+
+            .newsletter-header {
+                border-bottom: 2px solid #ddd;
+                padding-bottom: 15px;
+                margin-bottom: 25px;
+            }
+
+            .newsletter-title {
+                font-size: 26px;
+                font-weight: bold;
+                color: #2c3e50;
+            }
+
+            .newsletter-summary {
+                margin-top: 10px;
+                font-size: 15px;
+                color: #555;
+            }
+
+            .category-section {
+                margin-bottom: 35px;
+            }
+
+            .category-title {
+                font-size: 20px;
+                font-weight: bold;
+                color: #34495e;
+                margin-bottom: 15px;
+                border-bottom: 1px solid #ccc;
+                padding-bottom: 5px;
+            }
+
+            .news-item {
+                margin-bottom: 15px;
+            }
+
+            .news-item-title {
+                font-weight: bold;
+                color: #2980b9;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+            .news-item-title:hover {
+                text-decoration: underline;
+            }
+
+            .news-item-content {
+                display: inline;
+                color: #333;
+                font-size: 14px;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="newsletter-container" id="newsletter-root">
+			<div class="newsletter-header">
+				<div class="newsletter-title" id="main-title">Bülten Özeti</div>
+				<div class="newsletter-summary">Bültenimizde çeşitli alanlarda önemli gelişmeler yer alıyor. Otomotiv ve spor haberleri öne çıkarken, uluslararası ve yerel olaylar da detaylı şekilde aktarılıyor. Haberlerin detaylarını ve linklerini aşağıda bulabilirsiniz. Keyifli okumalar dileriz!</div>
+			</div>
+
+			<div class="news-content" id="news-section">
+				<div class="category-section">
+					
+					<div class="category-title category">SİYASET</div>
+
+					<div class="news-item">
+						<a href="https://www.star.com.tr/guncel/turkiyeden-pakistandaki-teror-saldirisina-sert-kinama-haber-1951012/" class="news-item-title">Türkiye, Pakistan'daki Terör Saldırısını Kınadı</a>:
+						<span class="news-item-content">Türkiye, Pakistan'daki terör saldırısını kınadı ve Pakistan'ın yanında olacağını belirtti.</span>
+					</div>
+
+					<div class="news-item">
+						<a href="https://www.haberturk.com/fransa-dan-tum-dunyaya-filistin-mesaji-3803122-spor" class="news-item-title">Fransa Filistin Mesajı Verdi</a>:
+						<span class="news-item-content">Fransa, Gazze'deki gelişmelerle ilgili kararlı olduklarını ve Filistin devletini tanımada istekli olduklarını açıkladı.</span>
+					</div>
+				</div>
+				<div class="category-section">
+					
+					<div class="category-title category">BİLİM</div>
+
+					<div class="news-item">
+						<a href="https://www.haberturk.com/james-webb-den-tarihi-ilk-gunes-sistemi-disindaki-bir-gezegen-ilk-kez-net-bir-seilde-goruntulendi-3802779" class="news-item-title">James Webb Teleskobu İlk Kez Bir Ötegezegen Fotoğrafı Çekti</a>:
+						<span class="news-item-content">NASA'nın James Webb Teleskobu, 110 ışık yılı uzaklıktaki gezegenin ilk fotoğrafını çekti ve yeni keşiflere kapı araladı.</span>
+					</div>
+
+					<div class="news-item">
+						<a href="https://www.star.com.tr/dunya/uzayda-yeni-kesif-34-isik-yili-uzaklikta-yeni-bir-dunya-haber-1950814/" class="news-item-title">Uzayda Yeni Keşif: 34 Işık Yılı Uzaklıktaki Yeni Dünya</a>:
+						<span class="news-item-content">James Webb Teleskobu, 34 ışık yılı uzaklıktaki yeni bir ötegezegen keşfetti ve hafifliğiyle dikkat çekiyor.</span>
+					</div>
+				</div>
+				<div class="category-section">
+					
+					<div class="category-title category">SPOR</div>
+
+					<div class="news-item">
+						<a href="https://www.haberturk.com/cristiano-ronaldo-suudi-arabistan-ligi-ilk-5-lig-arasinda-3803122-spor" class="news-item-title">Cristiano Ronaldo Suudi Arabistan Ligi'nin İlk 5 Lig Arasında</a>:
+						<span class="news-item-content">Cristiano Ronaldo, Suudi Arabistan Ligi'nin geliştiğini ve ilk 5 lig arasında olduğunu belirtti.</span>
+					</div>
+
+					<div class="news-item">
+						<a href="https://www.sabah.com.tr/spor/basketbol/2025/06/28/besiktas-conor-morgan-ile-yeniden-anlasti" class="news-item-title">Beşiktaş, Conor Morgan ile Sözleşme Uzattı</a>:
+						<span class="news-item-content">Beşiktaş Erkek Basketbol Takımı, Kanadalı oyuncu Conor Morgan ile sözleşmesini uzattı.</span>
+					</div>
+
+					<div class="news-item">
+						<a href="https://www.fotomac.com.tr/voleybol/2025/06/28/bulgaristan-0-3-turkiye-voleybol-millet-ligi-mac-sonucu-ozet" class="news-item-title">Milli Takım Bulgaristan'ı 3-0 Yendi</a>:
+						<span class="news-item-content">Voleybol Milli Takımı, Bulgaristan'ı 3-0 mağlup ederek sıralamada yükseldi.</span>
+					</div>
+				</div>
+				<div class="category-section">
+					
+					<div class="category-title category">SAĞLIK</div>
+
+					<div class="news-item">
+						<a href="https://www.haberturk.com/diyarbakir-ve-mardin-de-67-cocuga-sunnet-soleni-3802874" class="news-item-title">Diyarbakır ve Mardin'de Sünnet Şöleni</a>:
+						<span class="news-item-content">Çocuklar sünnet etkinliğiyle eğlendi ve çeşitli aktivitelerle mutlu oldular.</span>
+					</div>
+
+					<div class="news-item">
+						<a href="https://www.cumhuriyet.com.tr/egitim/acik-lise-3-donem-sinav-yerleri-aciklandi-mi-aol-sinav-giris-belgesi-nasil-alinir-2413332" class="news-item-title">Açık Lise 3. Dönem Sınavları Açıklandı</a>:
+						<span class="news-item-content">Açık lise 3. dönem sınav yerleri ve giriş belgeleri açıklandı, öğrenciler sınava bir hafta öncesinden erişebilir.</span>
+					</div>
+				</div>
+				<div class="category-section">
+					
+					<div class="category-title category">DİĞER</div>
+
+					<div class="news-item">
+						<a href="https://www.haberturk.com/18-yilin-en-dusugu-barajlar-kuruyor-3803014" class="news-item-title">Kuraklık ve Su Sıkıntısı Artıyor</a>:
+						<span class="news-item-content">Kuraklık nedeniyle barajların doluluk oranları düştü, tarım ve su kaynakları olumsuz etkileniyor.</span>
+					</div>
+
+					<div class="news-item">
+						<a href="https://brtk.net/iskele-festivali-basladi-2/" class="news-item-title">İskele Festivali Başladı</a>:
+						<span class="news-item-content">İskele’de uluslararası katılımlı festival renkli törenlerle başladı, 10 gün devam edecek.</span>
+					</div>
+				</div>
+				<div class="category-section">
+					
+					<div class="category-title category">OTOMOTİV</div>
+
+					<div class="news-item">
+						<a href="https://www.donanimhaber.com/xiaomi-yu7-satisa-sunuldu-iste-ozellikleri-ve-fiyati--193139" class="news-item-title">Xiaomi YU7 Elektrikli SUV Satışa Sunuldu</a>:
+						<span class="news-item-content">Xiaomi'nin yeni elektrikli SUV modeli YU7, lansmandan sonra 300.000'den fazla sipariş aldı ve 830 km menzile sahip.</span>
+					</div>
+
+					<div class="news-item">
+						<a href="https://www.donanimhaber.com/tesla-model-y-envanter-tarihleri-ve-on-siparis-ucreti-guncellendi--193212" class="news-item-title">Tesla Model Y Envanter ve Sipariş Güncellemeleri</a>:
+						<span class="news-item-content">Tesla, Model Y envanter tarihlerini genişletti ve ön sipariş ücretlerini güncelledi, stoklar hızla tükeniyor.</span>
+					</div>
+
+					<div class="news-item">
+						<a href="https://www.donanimhaber.com/xiaomi-yu7-satisa-sunuldu-iste-ozellikleri-ve-fiyati--193139" class="news-item-title">BYD Yeni ABC40 Modelini Duyurdu</a>:
+						<span class="news-item-content">Yeni modelin 650 km menzile sahip olacağı ve hızlı şarj özelliği sunacağı belirtiliyor.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
